@@ -1,0 +1,37 @@
+{
+  "name": "Dark Red",
+  "dataColors": ["#E5383B", "#F5A524", "#FF8A8A", "#A4161A", "#8A8A94", "#2EC27E", "#E8E8EA", "#6B0F1A"],
+  "background": "#1C1C21",
+  "foreground": "#F2F2F3",
+  "tableAccent": "#E5383B",
+  "good": "#2EC27E",
+  "neutral": "#F5A524",
+  "bad": "#FF6B6B",
+  "minimum": "#3A1013",
+  "center": "#8A2A2F",
+  "maximum": "#E5383B",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#F2F2F3" },
+    "title": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#F2F2F3" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#F2F2F3" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#A0A0A8" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#1C1C21" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#2E2E35" } }, "radius": 10 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#F2F2F3" } }, "fontSize": 12, "fontFamily": "Segoe UI Semibold" }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#A0A0A8" } } }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#A0A0A8" } }, "gridlineColor": { "solid": { "color": "#2E2E35" } } }],
+        "legend": [{ "labelColor": { "solid": { "color": "#A0A0A8" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0E0E11" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#0E0E11" } }, "transparency": 0 }]
+      }
+    }
+  }
+}
